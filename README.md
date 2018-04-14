@@ -38,13 +38,15 @@ optional arguments:
 			Use '-d True' to turn debug on
 ```
 Add your own sys_descriptor matches in the compile_hvars method to add custom variables. Hoping to add a better way of handling this soon
+```
+
+## Icinga2 sample files:
+The folder "samples" contains some ready to use .conf files for icinga2 configuration regarding templates and groups. 
 
 ## TODO:
 - More options
  - Allow user to input hostname FQDN format (should it come to that)
  - Specify SNMP timeout/retries
-- Allow different hostype definitions (maybe parse templates.conf)
-- Allow more in-depth host objects in general
 - Integrate with icingaweb2
 - Add SNMPv3 Support
 - Handle bad user input better
